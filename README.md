@@ -122,7 +122,7 @@ toon = Toon(username,password)
 toon.login()
 
 thermostat = toon.get_thermostat_info()
-power = toon.get_powerusage()
+power = toon.get_power_usage()
 toon.logout()
 
 temp = float(thermostat["currentTemp"]) / 100
